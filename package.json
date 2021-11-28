@@ -22,13 +22,8 @@
   "nyc": {
     "reporter": "html",
     "check-coverage": true,
-    "branches": 45,
+    "branches": 15,
     "lines": 40,
     "functions": 40
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run coverage"
-    }
   }
 }
